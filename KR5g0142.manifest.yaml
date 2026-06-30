@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0142/v1
+canonical_location: https://kanripo.org/bkk/KR5g0142/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 洞真太上神虎玉經
+  identifiers:
+    alt_id:
+    - DZ1333
+  date: '2015-08-29 02:58:32.387867'
+  source:
+    repository: kanripo
+    path: KR5g0142
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0142_000.yaml, hash: 'sha256:1b2122b982bc6f46af49a00e37e88a62dac8f03ae32e0a48a09eb39bf999ab41'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0142_000.markers.yaml, hash: 'sha256:96a5bee7eadbed391f9d4fd668f4c50b7a08a39e5b494736d159316cdd151c04'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0142_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1124
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:06a55a82fde96574a5492c7af6e26072538f333f2238bbac7e89b73f3853ab3f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
